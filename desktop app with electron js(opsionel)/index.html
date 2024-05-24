@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop App</title>
+    <link rel="stylesheet" href="./src/styles.css">
+    <script src='https://cdn.plot.ly/plotly-2.30.0.min.js'></script>
+</head>
+<body>
+    <h1>Simulyator</h1>
+    <form id="inputForm">
+        <div class="nstart">
+            <label for="a0">a0:</label>
+            <input type="text" id="a0" name="a0" value="0"><br><br>
+            
+            <label for="i_max">i_max:</label>
+            <input type="text" id="i_max" name="i_max" value="1000"><br><br>
+            
+            <label for="delta_T">delta_T:</label>
+            <input type="text" id="delta_T" name="delta_T" value="0.01"><br><br>
+            
+            <label for="omega">omega:</label>
+            <input type="text" id="omega" name="omega" value="1"><br><br>
+    
+            <button type="submit" id="btn">Qrafiki qur</button>
+            <button type="button" id="btnbtn">Əvvəlki Qrafiki göstər </button>
+        </div>
+
+        <div class="nmax">
+            <label for="n_max">n_max:</label>
+            <input type="text" id="n_max" name="n_max" value="0"><br><br>
+            <div id="nmaxcon">
+                <!--  --> 
+            </div>
+        </div>
+
+    </form>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

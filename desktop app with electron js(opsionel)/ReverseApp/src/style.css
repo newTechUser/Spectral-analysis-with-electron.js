@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* Genel stiller */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Etiketler için stiller */
+label {
+    font-weight: bold;
+}
+#inputForm{
+    display: flex;
+}
+.nmaxcon{
+    display: flex;
+}
+/* Input alanları için stiller */
+input[type="text"] {
+    width: 150px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Düğme için stiller */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button[type="button"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #45a049;
+}

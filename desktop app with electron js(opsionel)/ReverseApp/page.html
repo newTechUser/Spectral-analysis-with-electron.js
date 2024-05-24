@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop App</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <script src='https://cdn.plot.ly/plotly-2.30.0.min.js'></script>
+</head>
+<body>
+    <h1>Furye analizi</h1>
+    <form id="form">
+        <div class="nstart">
+            <label for="delta_T">delta_T:</label>
+            <input type="text" id="Delta_T" name="delta_T" value="0.01"><br><br>
+            
+            <label for="omega">omega:</label>
+            <input type="text" id="Omega" name="omega" value="1"><br><br>
+            
+            <label for="n_max">n_max:</label>
+            <input type="text" id="N_Max" name="n_max" value="2"><br><br>
+
+            <button type="submit" id="btn">A massivini təyin et</button>
+            <button type="button" id="btnbtn">B massivini təyin et</button>
+            <br>
+            <span id="A"></span><br>
+            <span id="B"></span>
+        </div>
+    </form>
+
+    <script src="render.js"></script>
+</body>
+</html>
